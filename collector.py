@@ -1,5 +1,5 @@
 import asyncio
-
+import requests
 
 async def collect_headers(page):
     all_headers = []
@@ -52,3 +52,31 @@ async def collect_script_src(page):
         src_value = await src_property.jsonValue()
         all_script_src.append(src_value)
     return all_script_src
+
+
+async def collect_script_content(page):
+    all_script_content = []
+
+    inline_scripts = await page.querySelectorAll('script:not([src])')
+    for element in inline_scripts:
+        content = await page.evaluate('(element) => element.textContent', element)
+        first_100_lines = '\n'.join(content.split('\n')[:100])
+        all_script_content.append({"type": "inline", "content": first_100_lines})
+
+    external_scripts = await page.querySelectorAll('script[src]')
+    for element in external_scripts:
+        src_property = await element.getProperty('src')
+        src_value = await src_property.jsonValue()
+        try:
+            with requests.get(src_value, stream=True) as response:
+                if response.status_code == 200:
+                    first_100_lines = ''
+                    for i, line in enumerate(response.iter_lines()):
+                        if i >= 100:
+                            break
+                        first_100_lines += line.decode() + '\n'
+                    all_script_content.append({"type": "external", "content": first_100_lines})
+        except:
+            print(f"Failed to fetch content from {src_value}")
+
+    return all_script_content

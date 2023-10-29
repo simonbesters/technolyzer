@@ -2,7 +2,9 @@
     "AfvalWijzer": {
         "example": "2023-09-06 https://mijnafvalwijzer.nl/ 2023-10-20 https://oisterwijk.afvalstoffendienstkalender.nl/ https://altena.afvalstoffendienstkalender.nl/ https://bernheze.afvalstoffendienstkalender.nl",
         "website": "https://www.addcomm.nl",
-        "cats": [999],
+        "cats": [
+            999
+        ],
         "meta": {
             "author": "AddComm Direct B.V.",
             "google-play-app": "app-id=nl.addcomm.afvalwijzer",
@@ -12,7 +14,9 @@
     "Articulate Rise 360": {
         "example": "2023-09-06 https://rise.articulate.com/share/XUpRSzDe2kb3I_3XegfBj0aSVHtCRq5B#/",
         "website": "https://articulate.com/360/rise",
-        "cats": [21],
+        "cats": [
+            21
+        ],
         "dom": [
             "script[src*='https://cdn.articulate.com/assets/rise/']"
         ]
@@ -20,7 +24,9 @@
     "Avolve DigEplan": {
         "example": "2023-09-06 https://tilburg.eu-stage.digeplan.io/app/#/",
         "website": "https://www.avolvesoftware.com/solutions/digeplan",
-        "cats": [50],
+        "cats": [
+            50
+        ],
         "dom": {
             "style#custom-styles-container": {
                 "attributes": {
@@ -33,13 +39,18 @@
     "BerekenUwRecht": {
         "example": "2023-09-06 https://www.berekenuwrechtplus.nl/app/scherm10.php?u=1712955309.558.71030250903202",
         "website": "www.berekenuwrechtplus.nl",
-        "cats": [999],
+        "cats": [
+            999
+        ],
         "url": "//www\\.berekenuwrechtplus\\.nl"
     },
     "Blueriq": {
         "example": "2023-09-06 https://winkel.tilburg.nl/formulieren.html",
         "website": "https://www.blueriq.com",
-        "cats": [110, 999],
+        "cats": [
+            110,
+            999
+        ],
         "dom": [
             "a[href*='/server/start/']"
         ],
@@ -48,7 +59,10 @@
     "Darwin Smart Building Software": {
         "example": "2023-09-06 https://reserveringen.tilburg.nl/auth/welcome",
         "website": "https://www.darwin.technology/",
-        "cats": [72, 999],
+        "cats": [
+            72,
+            999
+        ],
         "dom": {
             "head > title": {
                 "text": "DARWIN® - Smart Building Software"
@@ -58,7 +72,10 @@
     "Inovim CI-Web": {
         "example": "2023-09-06 https://bat.ci-web.eu/login",
         "website": "https://inovim.eu/en/solutions/",
-        "cats": [19, 999],
+        "cats": [
+            19,
+            999
+        ],
         "dom": [
             "link[href='/css/ci-web-print.css']"
         ]
@@ -66,37 +83,52 @@
     "KennisCloud": {
         "example": "2023-09-06 https://www.kenniscloud.nl/page/761/tilburg-en-omstreken",
         "website": "https://www.driebit.nl/nl/werk/kenniscloud",
-        "cats": [2, 999],
+        "cats": [
+            2,
+            999
+        ],
         "url": "//www\\.kenniscloud\\.nl"
     },
     "P1 - BezoekersApp": {
         "example": "2023-09-06 https://bezoek.parkeer.nl/",
         "website": "https://www.p1.nl/dienstverlening/on-street/digitalisering-parkeerdienstverlening/2",
-        "cats": [999],
+        "cats": [
+            999
+        ],
         "url": "//bezoek\\.parkeer\\.nl/"
     },
     "P1 - Digitaal Parkeerloket": {
         "example": "2023-10-25 https://alkmaar.webshop.parkeer.nl/ https://tilburg.webshop.parkeer.nl",
         "website": "https://www.p1.nl/dienstverlening/on-street/digitalisering-parkeerdienstverlening/2",
-        "cats": [999],
+        "cats": [
+            999
+        ],
         "url": "https://\\w+\\.webshop\\.parkeer\\.nl/"
     },
     "Pepperflow Begrotingsapp": {
         "example": "2023-09-06 https://limburg.begrotingsapp.nl/",
         "website": "https://www.pepperflow.nl/Begrotingsapp",
-        "cats": [50],
+        "cats": [
+            50
+        ],
         "url": "//.*\\.begrotingsapp.nl"
     },
     "Qfact Better Performance Pro": {
         "example": "2023-09-06 https://app.qfact.nl/",
         "website": "https://www.qfact.nl",
-        "cats": [19, 999],
+        "cats": [
+            19,
+            999
+        ],
         "url": "//app\\.qfact\\.nl"
     },
     "Research.net SurveyMonkey": {
         "example": "2023-09-06 https://nl.research.net/r/RaadTilburg2021",
         "website": "https://www.research.net",
-        "cats": [73, 999],
+        "cats": [
+            73,
+            999
+        ],
         "meta": {
             "description": "\\.*Research\\.net\\.*"
         },
@@ -109,7 +141,9 @@
     "Security Scorecard": {
         "example": "2023-09-06 https://platform.securityscorecard.io/",
         "website": "https://securityscorecard.com/product/",
-        "cats": [95],
+        "cats": [
+            95
+        ],
         "meta": {
             "application-name": "SecurityScorecard"
         }
@@ -117,7 +151,10 @@
     "Survalyzer": {
         "example": "2023-09-06 https://tilburg.survalyzer.eu/xlanjmdbju?l=nl",
         "website": "https://www.survalyzer.eu",
-        "cats": [73, 999],
+        "cats": [
+            73,
+            999
+        ],
         "meta": {
             "description": "\\.*Survalyzer\\.*"
         },
@@ -126,20 +163,28 @@
     "TIE Kinetix": {
         "example": "2023-09-06 https://gemeentetilburg.flow.tiekinetix.net/auth/login",
         "website": "https://tiekinetix.com/nl",
-        "cats": [55, 999],
+        "cats": [
+            55,
+            999
+        ],
         "url": "^https?.*\\.flow\\.tiekinetix\\.net"
     },
     "TSF Recruitment": {
         "example": "2023-09-06 https://www.werkenvoortilburg.nl/",
         "website": "https://www.solutionsfactory.nl",
-        "cats": [101, 999],
+        "cats": [
+            101,
+            999
+        ],
         "meta": {
             "keywords": "The Solutions Factory Mobiliteit 2.0"
         }
     },
     "Ruby on Rails": {
         "example": "2023-10-26 https://dcp-time-slot.cbg-meb.nl/",
-        "cats": [18],
+        "cats": [
+            18
+        ],
         "cookies": {
             "_session_id": "\\;confidence:75"
         },
@@ -166,18 +211,27 @@
     "Formdesk": {
         "example": "2023-10-04 https://fd9.formdesk.com/provinciedrenthe/melding_milieuklachten",
         "website": "https://www.formdesk.com",
-        "cats": [110, 999],
+        "cats": [
+            110,
+            999
+        ],
         "scriptSrc": "\\.formdesk.com"
     },
     "Egouw Digitale Belastingbalie": {
         "example": "2023-10-09 https://belastingen.geldrop-mierlo.nl/view/LOGIN https://belastingen.noordenveld.nl/view/LOGIN",
-        "cats": [53, 999],
+        "cats": [
+            53,
+            999
+        ],
         "scripts": "egouw\\.login\\.status|EGouwConfiguration",
         "website": "https://www.gouwit.nl/product/belastingen/"
     },
     "BakerWare Belastingbalie": {
         "example": "2023-10-09 https://dbb.bsgw.nl/digid.info.php https://belastingen.stadskanaal.nl/digid.info.php",
-        "cats": [53, 999],
+        "cats": [
+            53,
+            999
+        ],
         "scripts": "BalieSessiePopup",
         "url": "\\.*/digid\\.info\\.php",
         "website": "https://www.bakerware.nl/producten/belastingbalie/"
@@ -185,12 +239,21 @@
     "CONTENTdm": {
         "example": "2023-10-13 https://facsimile.ub.rug.nl/",
         "website": "https://www.oclc.org/nl/contentdm.html",
-        "cats": [1],
-        "scripts": ["cdm-collection-landing-page", "cdm-app:ready", "SITE_cdm_"]
+        "cats": [
+            1
+        ],
+        "scripts": [
+            "cdm-collection-landing-page",
+            "cdm-app:ready",
+            "SITE_cdm_"
+        ]
     },
     "QMatic Web Booking": {
         "example": "2023-10-20 https://afspraak.arnhem.nl https://afspraak.haarlemmermeer.nl",
-        "cats": [72,999],
+        "cats": [
+            72,
+            999
+        ],
         "meta": {
             "copyright": "Qmatic"
         },
@@ -201,13 +264,19 @@
     },
     "T:MEBLOCKR": {
         "example": "2023-10-20 https://afspraak.zaanstad.nl/ https://www.koksijde.be/afspraak-maken#select/",
-        "cats": [72, 999],
+        "cats": [
+            72,
+            999
+        ],
         "dom": "div[id*='timeblockr']",
         "website": "https://timeblockr.com/"
     },
     "JCC G-Plan": {
         "example": "2023-10-12 https://afspraken.bar-organisatie.nl/Internetafspraken/Ridderkerk https://afspraken.veendam.nl/Internetafspraken_Veendam/ 2023-10-20 https://almelo.mijnafspraakmaken.nl/",
-        "cats": [72, 999],
+        "cats": [
+            72,
+            999
+        ],
         "meta": {
             "author": "JCC Software, versie G-Plan"
         },
@@ -216,7 +285,10 @@
     },
     "Crowdtech All-in-One Research Platform": {
         "example": "2023-10-20 https://heeze-leende-burgerpanel.mwm2.nl/ https://digipanelarnhem.mwm2.nl/",
-        "cats": [73, 999],
+        "cats": [
+            73,
+            999
+        ],
         "headers": {
             "Content-Security-Policy": "\\.crowdtech\\.com|\\.crowdtech-dev\\.com|\\.crowdtech-acceptance.com"
         },
@@ -247,12 +319,17 @@
             "onetime"
         ],
         "scripts": "craft-tabs",
-        "scriptSrc": ["/cpresources/", "/craft-resources/"],
+        "scriptSrc": [
+            "/cpresources/",
+            "/craft-resources/"
+        ],
         "website": "https://craftcms.com/"
     },
     "Kirby CMS": {
         "example": "2023-10-20 https://www.avanscmd.nl/ https://www.andreasgursky.com/en https://www.gouda-geldpunt.nl/",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "scriptSrc": [
             "/assets/js/\\;confidence:50",
             "/assets/build/\\;confidence:50"
@@ -267,64 +344,87 @@
     "FlipHTML5": {
         "example": "2023-10-23 https://lokaaltotaal.nl/gidsen/enschede/",
         "website": "https://www.fliphtml5.com/",
-        "cats": [5, 999],
+        "cats": [
+            5,
+            999
+        ],
         "dom": "iframe[src*='https://s3.amazonaws.com/online.fliphtml5.com']"
     },
     "Publitas": {
         "example": "2023-10-25 https://view.publitas.com/kentalis/magazine-tos-2019/page/1",
         "website": "https://www.publitas.com/",
-        "cats": [5, 999],
+        "cats": [
+            5,
+            999
+        ],
         "dom": "link[href*='https://view\\.publitas\\.com/']"
     },
     "Maglr": {
         "example": "2023-10-25 https://socialebasis.kampen.nl/sociale-basis/cover",
         "website": "https://www.maglr.com/",
-        "cats": [5],
+        "cats": [
+            5
+        ],
         "dom": "link[src*='https://data\\.maglr\\.com/']",
         "scriptSrc": "^https://system\\.maglr\\.com/"
     },
     "xxllnc Zaken": {
         "example": "2023-10-25 https://mijn.gouda.nl/pip/login",
         "website": "https://xxllnc.nl/zaakgericht/",
-        "cats": [50],
+        "cats": [
+            50
+        ],
         "dom": "body[data-ng-app*='Zaaksysteem']",
         "scriptSrc": "/js/zaaksysteem\\.js"
     },
     "Visma EasyCruit": {
         "example": "2023-10-25 https://gemeentekampen.easycruit.com/ https://gemeenteamersfoort.easycruit.com/",
         "website": "https://xxllnc.nl/zaakgericht/",
-        "cats": [101, 999],
+        "cats": [
+            101,
+            999
+        ],
         "url": "^https://\\w+\\.easycruit\\.com/"
     },
     "Sigmax CityPermit": {
         "example": "2023-10-25 https://parkeervergunning.kampen.nl/",
-        "cats": [999],
+        "cats": [
+            999
+        ],
         "dom": "link[href*='citypermit\\.css']",
         "scripts": "Citypermit",
         "website": "https://www.sigmax.nl/oplossing/citypermit/"
     },
     "Parlaeus": {
         "example": "2023-10-25 https://leiden.parlaeus.nl/app/ https://maastricht.parlaeus.nl/app/",
-        "cats": [50],
+        "cats": [
+            50
+        ],
         "url": "https://\\w+\\.parlaeus\\.nl/app/",
         "website": "https://parlaeus.nl/"
     },
     "GeoNetwork": {
         "example": "2023-10-25 https://georegister.brabant.nl/geonetwork/srv/dut/catalog.search#/home",
         "website": "https://geonetwork-opensource.org/",
-        "cats": [999],
+        "cats": [
+            999
+        ],
         "scriptSrc": "/geonetwork/"
     },
     "Adobe Edge": {
         "example": "2023-10-25 https://www.brabantinvesteringsfondsen.nl/",
         "website": "https://helpx.adobe.com/edge-animate/edge-development-faq.html",
-        "cats": [20],
+        "cats": [
+            20
+        ],
         "scripts": "AdobeEdge\\."
     },
     "MyPOI CMS": {
         "example": "2023-10-25 https://onsbrabantfietst.nl/ https://www.vvvamersfoort.nl/",
         "website": "https://www.mypoiworld.com/nl/mypoi-cms",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "meta": {
             "generator": "^MPW CMS SDK v([\\d\\.]+)\\;version:\\1"
         }
@@ -332,7 +432,9 @@
     "ArcGIS Online": {
         "example": "2023-09-06 https://geo.tilburg.nl/portal/home/index.html 2023-10-25 https://kaartbank.brabant.nl/viewer/app/Kaartbank",
         "website": "https://www.arcgis.com/",
-        "cats": [999],
+        "cats": [
+            999
+        ],
         "dom": {
             "link[href*='/js/arcgisonline/css/common.css']": {
                 "attributes": {
@@ -345,7 +447,9 @@
     "ArcGIS StoryMaps": {
         "example": "2023-09-06 https://storymaps.arcgis.com/collections/ee8faf6db5e4475696ce1f76700b6190?item=11 https://storymaps.arcgis.com/stories/9f98c56d87c34fc38b0dc73bdb6b6be1",
         "website": "https://storymaps.arcgis.com/",
-        "cats": [999],
+        "cats": [
+            999
+        ],
         "meta": {
             "og:title": "Story Map Series",
             "og:description": "This story map was created with the Story Map Series application in ArcGIS Online.",
@@ -355,7 +459,9 @@
     "ArcGIS Survey123": {
         "example": "2023-09-06 https://survey123.arcgis.com/share/f8ae87dcee0e4860aefe3038eb7a2398?portalUrl=https%3A%2F%2Fgeo.tilburg.nl%2Fportal",
         "website": "https://survey123.arcgis.com/",
-        "cats": [999],
+        "cats": [
+            999
+        ],
         "meta": {
             "description": "ArcGIS Survey123 is a complete, form-centric solution for creating, sharing and analyzing surveys.",
             "og:url": "https://survey123\\.arcgis\\.com"
@@ -364,7 +470,9 @@
     "Baanreserveren": {
         "example": "2023-09-06 https://demo.baanreserveren.nl/",
         "website": "https://www.baanreserveren.nl",
-        "cats": [999],
+        "cats": [
+            999
+        ],
         "description": "Baanreserveren",
         "saas": true,
         "oss": false,
@@ -381,7 +489,9 @@
     },
     "Bart CMS": {
         "example": "2023-10-10 https://sociaalstartpuntveenendaal.nl/ https://www.wegwijsinwestbetuwe.nl/",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "meta": {
             "generator": "^CMS BArt\\b"
         },
@@ -389,7 +499,9 @@
     },
     "Bolt CMS": {
         "example": "2023-10-16 https://snt.utwente.nl/ https://jouwbespaarcoach.com/",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "cpe": "cpe:2.3:a:bolt:bolt:*:*:*:*:*:*:*:*",
         "icon": "Bolt CMS.png",
         "implies": "PHP",
@@ -404,7 +516,9 @@
     "CityNavigator": {
         "example": "2023-09-06 https://www.tickettotilburg.com/nl 2023-10-06 https://www.visitgroningen.nl/nl",
         "website": "https://www.citynavigator.nl",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "dom": [
             "img[src*='https://assets.citynavigator.nl/']",
             "img[data-src*='https://assets.citynavigator.nl/']"
@@ -412,7 +526,9 @@
     },
     "CMS Live": {
         "example": "2023-10-10 https://zuid.verwijzingswijzer.nl/ https://www.hetvergetenkind.nl/",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "meta": {
             "generator": "^(CMS Live|Multimove Live)"
         },
@@ -421,7 +537,9 @@
     "Decos Fixi": {
         "example": "2023-09-06 https://www.fixi.nl/",
         "website": "https://www.decos.com",
-        "cats": [999],
+        "cats": [
+            999
+        ],
         "meta": {
             "description": "Maak eenvoudig een melding aan de openbare ruimte via de fixi website of via de Android of iOS app. Houd samen met de gemeente je buurt in vorm!",
             "author": "Decos"
@@ -430,12 +548,16 @@
     "DevCMS": {
         "example": "2023-10-09 https://www.deventer.nl/ https://www.olst-wijhe.nl/",
         "website": "https://github.com/nedforce/devcms-core",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "scripts": "devcms.carousel"
     },
     "Drupal": {
         "example": "2023-10-05 https://www.vught.nl/ 2023-10-20 https://www.nieren.nl 2023-10-23 https://www.rotterdam.nl",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "cpe": "cpe:2.3:a:drupal:drupal:*:*:*:*:*:*:*:*",
         "description": "Drupal is a free and open-source web content management framework.",
         "dom": "img[srcset*='https%3A%2F%2Fbackend-dvg\\.']",
@@ -465,7 +587,9 @@
     "Foleon": {
         "example": "2023-09-06 https://publicaties.tilburg.nl/magazine-ondermijning/home/ 2023-10-06 https://www.dice.com/recruiting/ebooks/dice-tech-salary-report-explore/",
         "website": "https://www.foleon.com/",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "dom": [
             "div#app.foleon-animation",
             "div.foleon-content-wrapper",
@@ -475,7 +599,9 @@
     "Footsteps2": {
         "example": "2023-10-10 https://tilburg.lokalelastenmeter.nl https://alkmaar.lokalelastenmeter.nl/ 2023-10-16 https://www.footsteps.nl/cms",
         "website": "https://www.footsteps.nl/cms",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "url": "//.*\\.lokalelastenmeter.nl",
         "meta": {
             "generator": "^Footsteps2"
@@ -484,7 +610,9 @@
     "GO. cms enterprise": {
         "example": "2023-09-27 https://www.meerssen.nl 2023-10-08 https://www.landsmeer.nl/ https://www.gemeente-steenbergen.nl/",
         "website": "https://www.gemeenteoplossingen.nl/producten/content_management/go._cms_enterprise/",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "meta": {
             "generator": "^(GO\\.|IO4) cms enterprise"
         }
@@ -492,7 +620,9 @@
     "GO. raadsinformatie": {
         "example": "2023-10-10 https://ris.gemeenteraadhuizen.nl https://gemeentebestuur.haarlem.nl",
         "website": "https://www.gemeenteoplossingen.nl/producten/papierloos_vergaderen/go._raadsinformatie/",
-        "cats": [50],
+        "cats": [
+            50
+        ],
         "meta": {
             "generator": "^GO\\. raadsinformatie"
         }
@@ -500,7 +630,9 @@
     "Green Valley CMS": {
         "example": "2023-09-06 https://www.heerde.nl/",
         "website": "https://www.roxit.nl/Oplossingen/Publiekewebsites/Rx_Front",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "dom": [
             "img[src*='/dsresource?objectid=']"
         ],
@@ -526,7 +658,9 @@
     "iBabs RIS": {
         "example": "2023-09-06 https://noordbrabant.bestuurlijkeinformatie.nl/ https://ris2.ibabs.eu/noordenveld",
         "website": "https://www.ibabs.com",
-        "cats": [50],
+        "cats": [
+            50
+        ],
         "url": [
             "//.+\\.bestuurlijkeinformatie\\.nl",
             "//ris2\\.ibabs\\.eu",
@@ -539,7 +673,9 @@
     "InProces Portaal": {
         "example": "2023-09-06 https://www.aalsmeer.nl/",
         "website": "https://www.roxit.nl",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "meta": {
             "application-name": "^InProces\\b"
         },
@@ -548,7 +684,9 @@
     "IPROX-CMS": {
         "example": "2023-09-27 https://amsterdam.nl 2023-10-08 https://www.vrbn.nl/",
         "website": "https://www.infoprojects.nl/oplossingen/iprox-cms/",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "dom": [
             "div[class*='iprox-content']"
         ],
@@ -559,14 +697,19 @@
     "iWink CMS": {
         "example": "2023-10-10 https://energiemonitor.hoogeveen.nl https://www.werkenbijmcl.nl/ https://www.zuidoostzorg.nl/",
         "website": "https://www.iwink.nl/kennisartikelen/verbeterde-interface-voor-het-cms",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "meta": {
             "generator": "^Kirra\\b"
         }
     },
     "JCC G-Plan": {
         "example": "2023-10-12 https://afspraken.bar-organisatie.nl/Internetafspraken/Ridderkerk https://afspraken.veendam.nl/Internetafspraken_Veendam/",
-        "cats": [72, 999],
+        "cats": [
+            72,
+            999
+        ],
         "meta": {
             "author": "JCC Software, versie G-Plan"
         },
@@ -574,7 +717,9 @@
     },
     "Joomla": {
         "example": "2023-10-20 https://casemanagementnijmegen.nl/ https://www.innovatienetwerkjeugd.nl",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "cpe": "cpe:2.3:a:joomla:joomla:*:*:*:*:*:*:*:*",
         "description": "Joomla is a free and open-source content management system for publishing web content.",
         "headers": {
@@ -600,7 +745,9 @@
     },
     "Laravel": {
         "example": "2023-10-04 https://www.jeugdtegoed.nl",
-        "cats": [18],
+        "cats": [
+            18
+        ],
         "cookies": {
             "laravel_session": "",
             "XSRF-TOKEN": "\\;confidence:50"
@@ -621,7 +768,9 @@
     "LIAS Publisher": {
         "example": "2023-09-06 https://boxtel.begroting-2023.nl/ https://groningen.jaarverslag-2021.nl/ 2023-10-20 https://2017.begrotingzuidholland.nl",
         "website": "https://inergy.nl/lias/planning-en-control/lias-publisher/",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "meta": {
             "lias-tenant-id": ".*"
         },
@@ -635,7 +784,9 @@
     },
     "Linga CMS": {
         "example": "2023-10-10 https://www.duurzamegezondescholencongres.nl/ https://www.mvicongres.nl/",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "dom": [
             "img[src*='content.lingacms.nl']"
         ],
@@ -646,7 +797,9 @@
     },
     "Mett": {
         "example": "2023-10-09 https://www.rudzuidlimburg.nl/ https://website-mgrsdcg.mett.nl/home+inkoop/default.aspx",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "dom": [
             "link[href*='/communities/common/themes/mett%20responsive/']"
         ],
@@ -658,7 +811,9 @@
     "mojoPortal": {
         "example": "2023-10-23 https://archive.mtpgroup.nl/",
         "website": "https://www.mojoportal.com/",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "scripts": [
             "div\\.mojo-accordion",
             "div\\.mojo-tabs"
@@ -668,7 +823,9 @@
     "Netrex Rexgard": {
         "example": "2023-10-10 https://www.toegangsociaaldomein.nl/ https://www.steffie.nl/",
         "website": "https://www.netrex.nl/home/een-workshop-van-netrex-helpt-je-op-weg/spannend-blijven/content-management.html",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "meta": {
             "generator": "^Netrex Rexgard(?: ([\\d\\.]+))?\\;version:\\1"
         }
@@ -676,7 +833,9 @@
     "Notubiz": {
         "example": "2023-09-06 https://wageningen.raadsinformatie.nl/",
         "website": "http://www.notubiz.nl/",
-        "cats": [50],
+        "cats": [
+            50
+        ],
         "js": {
             "notubiz": ""
         }
@@ -684,7 +843,9 @@
     "One.com Website Builder": {
         "example": "2023-10-12 https://www.akkoordvanalbrandswaard.nl/",
         "website": "https://www.one.com/en/websitebuilder",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "meta": {
             "generator": "One\\.com Web Editor"
         }
@@ -692,7 +853,9 @@
     "Plate": {
         "example": "2023-10-10 https://www.leergeldhaaksbergen.nl/ https://www.leergeldtilburg.nl/ 2023-10-16 https://demowebsite3.parnassys.nl/ https://www.almerecollege.nl/",
         "website": "https://www.getplate.com/nl",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "meta": {
             "generator": "^Plate\\b"
         }
@@ -700,7 +863,11 @@
     "Pleio": {
         "example": "2023-10-10 https://kemprogramma.nl/ https://life-ip-deltanatuur.nl/",
         "website": "https://pleio.nl/",
-        "cats": [2, 8, 999],
+        "cats": [
+            2,
+            8,
+            999
+        ],
         "headers": {
             "Content-Security-Policy": "account\\.pleio\\.nl"
         },
@@ -712,7 +879,9 @@
     "Procurios": {
         "example": "2023-09-27 https://www.klimaatadaptatiebrabant.nl/",
         "website": "https://www.procurios.com/nl/",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "meta": {
             "generator": "^Procurios\\b"
         }
@@ -720,14 +889,18 @@
     "RapidWeaver": {
         "example": "2023-09-27 https://www.kerkhofveendam.nl",
         "website": "https://www.realmacsoftware.com/rapidweaver/",
-        "cats": [57],
+        "cats": [
+            57
+        ],
         "meta": {
             "generator": "^RapidWeaver\\b"
         }
     },
     "SilverStripe": {
         "example": "2023-10-13 https://amersfoort.parkeerservice.nl/ https://www.sociaaldomeinachterhoek.nl/",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "description": "Silverstripe CMS is a free and open source Content Management System and Framework for creating and maintaining websites and web applications.",
         "dom": [
             "link[href*='vendor/lerni/klaro-cookie-consent']"
@@ -745,7 +918,9 @@
     "Sitebox CMS": {
         "example": "2023-09-06 https://www.maasdriel.nl/ 2023-10-09 https://www.vaals.nl/ 2023-10-09 https://www.raadzaltbommel.nl/",
         "website": "https://www.care.nl",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "meta": {
             "generator": "^Sitebox CMS\\b"
         },
@@ -756,7 +931,9 @@
     },
     "Siteimprove": {
         "example": "2023-10-09 https://www.wageningen.nl/",
-        "cats": [10],
+        "cats": [
+            10
+        ],
         "description": "Siteimprove is a digital analytics and content QA platform.",
         "icon": "Siteimprove.svg",
         "js": {
@@ -771,10 +948,12 @@
         "scriptSrc": "(?:\\.|//)siteimprove(?:analytics)?\\.com/js/siteanalyze",
         "website": "https://www.siteimprove.com"
     },
-        "SmartSite": {
+    "SmartSite": {
         "example": "2023-10-10 https://www.moerdijk.nl/ https://www.apeldoorn.nl",
         "website": "https://www.seneca.nl",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "cookies": {
             "^\\w+_guid": ""
         },
@@ -795,13 +974,17 @@
     "StippWeb": {
         "example": "2023-10-20 https://puc.overheid.nl/",
         "website": "https://www.stipp.nl/oplossingen/detail/7242/stippweb/",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "scriptSrc": "/StippWebDLL/Resources/"
     },
     "Strapi": {
         "example": "2023-10-10 https://www.gelderland.nl https://www.condoleanceregisterprovinciegelderland.nl/",
         "website": "https://strapi.io/",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "description": "Strapi is an open-source headless CMS used for building fast and easily manageable APIs written in JavaScript.",
         "headers": {
             "X-Powered-By": "^Strapi"
@@ -812,7 +995,9 @@
     },
     "Swing Mosaic": {
         "example": "2023-10-09 https://www.enschede.incijfers.nl https://parkstad.incijfers.nl/dashboard/ https://www.waarstaatjegemeente.nl/dashboard/dashboard/gemeentelijke-monitor-sociaal-domein",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "dom": [
             "a[href*='https://swing.eu/content/Swing-Mosaic']"
         ],
@@ -821,14 +1006,18 @@
     "TrafficTower CMS": {
         "example": "2023-10-10 https://www.sportloketvelsen.nl/ https://beterbenutten.gedragshuis.nl/",
         "website": "https://bitman.nl/#wat-we-doen",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "meta": {
             "generator": "^TrafficTower\\b"
         }
     },
     "Umbraco": {
         "example": "2023-10-04 https://www.erfgoedbrabant.nl 2023-09-06 https://www.vrmwb.nl/",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "cookies": {
             "merchello": "\\;version:7"
         },
@@ -870,10 +1059,11 @@
     "WebEtui": {
         "example": "2023-09-06 https://www.zorgenveiligheidshuizen.nl/veiligheidshuizen/zorg-en-veiligheidshuis-midden-brabant/",
         "website": "https://www.webetui.nl/",
-        "cats": [1],
+        "cats": [
+            1
+        ],
         "dom": [
             "script[src*='/webetui_']"
         ]
     }
 }
-
